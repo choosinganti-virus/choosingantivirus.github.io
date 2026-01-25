@@ -1,0 +1,64 @@
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.tema {
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.info {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 20px
+}
+
+h2 {
+    margin-left: 450px;
+    margin-top: 75px;
+    font-size: 30px
+}
+
+.kaspersky {
+    margin-left: 435px;
+}
+
+.drweb {
+    margin-left: 445px;
+}
+
+.defender {
+    margin-left: 450px;
+}
+
+.avast {
+    margin-left: 435px;
+}
+
+.pro32 {
+    margin-left: 415px;
+}
+
+.end {
+    margin-left: 425px;
+}
+
+.endd {
+    margin-bottom: 100px;
+}
+
+.antivirus {
+    float: right;
+    margin-left: -9000px;
+}
