@@ -312,11 +312,45 @@ body {
     margin-bottom: 1.5rem !important;
 }
 
-/* Центрирование features-grid */
 .antivirus-content .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin: 2rem auto;
     max-width: 900px;
+}
+
+.functions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.function-square {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    border-left: 4px solid #667eea;
+    transition: transform 0.3s ease;
+}
+
+.function-square:hover {
+    transform: translateY(-5px);
+    background: #e9ecef;
+}
+
+.function-square h4 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.function-square p {
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
 }
