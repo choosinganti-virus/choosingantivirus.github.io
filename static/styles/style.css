@@ -320,6 +320,8 @@ body {
     max-width: 900px;
 }
 
+
+/* квадратики */
 .functions-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
